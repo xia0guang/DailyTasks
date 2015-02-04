@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B5154F19D15BAB00C9D505 /* TaskWithCheckBoxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5154E19D15BAB00C9D505 /* TaskWithCheckBoxTableViewCell.m */; };
+		48B5155219D16F7900C9D505 /* CheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5155119D16F7900C9D505 /* CheckBoxView.m */; };
+		48B5155519D226B900C9D505 /* Tasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5155419D226B900C9D505 /* Tasks.m */; };
+		48B6087A19D5C9E8007FB4A0 /* NotificationPermissionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6087919D5C9E8007FB4A0 /* NotificationPermissionHandler.m */; };
+		48BEA32B19C50C210072277E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA32A19C50C210072277E /* Foundation.framework */; };
+		48BEA32D19C50C210072277E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA32C19C50C210072277E /* CoreGraphics.framework */; };
+		48BEA32F19C50C210072277E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA32E19C50C210072277E /* UIKit.framework */; };
+		48BEA33119C50C210072277E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA33019C50C210072277E /* CoreData.framework */; };
+		48BEA33719C50C210072277E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48BEA33519C50C210072277E /* InfoPlist.strings */; };
+		48BEA33919C50C210072277E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BEA33819C50C210072277E /* main.m */; };
+		48BEA33D19C50C210072277E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BEA33C19C50C210072277E /* AppDelegate.m */; };
+		48BEA34019C50C210072277E /* Daily_Tasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48BEA33E19C50C210072277E /* Daily_Tasks.xcdatamodeld */; };
+		48BEA34219C50C210072277E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BEA34119C50C210072277E /* Images.xcassets */; };
+		48BEA34919C50C210072277E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA34819C50C210072277E /* XCTest.framework */; };
+		48BEA34A19C50C210072277E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA32A19C50C210072277E /* Foundation.framework */; };
+		48BEA34B19C50C210072277E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA32E19C50C210072277E /* UIKit.framework */; };
+		48BEA34C19C50C210072277E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA33019C50C210072277E /* CoreData.framework */; };
+		48BEA35419C50C210072277E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48BEA35219C50C210072277E /* InfoPlist.strings */; };
+		48BEA35619C50C210072277E /* Daily_TasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BEA35519C50C210072277E /* Daily_TasksTests.m */; };
+		48BEA36019C50CD60072277E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BEA35F19C50CD60072277E /* Main.storyboard */; };
+		48BEA36319C55ACA0072277E /* DailyTasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BEA36219C55ACA0072277E /* DailyTasksTableViewController.m */; };
+		48BEA36619C55B0A0072277E /* AddTaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BEA36519C55B0A0072277E /* AddTaskTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48BEA34D19C50C210072277E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48BEA31F19C50C210072277E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48BEA32619C50C210072277E;
+			remoteInfo = "Daily Tasks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48B5154D19D15BAB00C9D505 /* TaskWithCheckBoxTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWithCheckBoxTableViewCell.h; sourceTree = "<group>"; };
+		48B5154E19D15BAB00C9D505 /* TaskWithCheckBoxTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWithCheckBoxTableViewCell.m; sourceTree = "<group>"; };
+		48B5155019D16F7900C9D505 /* CheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBoxView.h; sourceTree = "<group>"; };
+		48B5155119D16F7900C9D505 /* CheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBoxView.m; sourceTree = "<group>"; };
+		48B5155319D226B900C9D505 /* Tasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tasks.h; sourceTree = "<group>"; };
+		48B5155419D226B900C9D505 /* Tasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tasks.m; sourceTree = "<group>"; };
+		48B6087819D5C9E8007FB4A0 /* NotificationPermissionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationPermissionHandler.h; sourceTree = "<group>"; };
+		48B6087919D5C9E8007FB4A0 /* NotificationPermissionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationPermissionHandler.m; sourceTree = "<group>"; };
+		48BEA32719C50C210072277E /* Daily Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Tasks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BEA32A19C50C210072277E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48BEA32C19C50C210072277E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48BEA32E19C50C210072277E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48BEA33019C50C210072277E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		48BEA33419C50C210072277E /* Daily Tasks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Daily Tasks-Info.plist"; sourceTree = "<group>"; };
+		48BEA33619C50C210072277E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48BEA33819C50C210072277E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48BEA33A19C50C210072277E /* Daily Tasks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daily Tasks-Prefix.pch"; sourceTree = "<group>"; };
+		48BEA33B19C50C210072277E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48BEA33C19C50C210072277E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48BEA33F19C50C210072277E /* Daily_Tasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Tasks.xcdatamodel; sourceTree = "<group>"; };
+		48BEA34119C50C210072277E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48BEA34719C50C210072277E /* Daily TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily TasksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BEA34819C50C210072277E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		48BEA35119C50C210072277E /* Daily TasksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Daily TasksTests-Info.plist"; sourceTree = "<group>"; };
+		48BEA35319C50C210072277E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48BEA35519C50C210072277E /* Daily_TasksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Daily_TasksTests.m; sourceTree = "<group>"; };
+		48BEA35F19C50CD60072277E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48BEA36119C55ACA0072277E /* DailyTasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyTasksTableViewController.h; sourceTree = "<group>"; };
+		48BEA36219C55ACA0072277E /* DailyTasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyTasksTableViewController.m; sourceTree = "<group>"; };
+		48BEA36419C55B0A0072277E /* AddTaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskTableViewController.h; sourceTree = "<group>"; };
+		48BEA36519C55B0A0072277E /* AddTaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48BEA32419C50C210072277E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BEA32D19C50C210072277E /* CoreGraphics.framework in Frameworks */,
+				48BEA33119C50C210072277E /* CoreData.framework in Frameworks */,
+				48BEA32F19C50C210072277E /* UIKit.framework in Frameworks */,
+				48BEA32B19C50C210072277E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BEA34419C50C210072277E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BEA34919C50C210072277E /* XCTest.framework in Frameworks */,
+				48BEA34C19C50C210072277E /* CoreData.framework in Frameworks */,
+				48BEA34B19C50C210072277E /* UIKit.framework in Frameworks */,
+				48BEA34A19C50C210072277E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48BEA31E19C50C210072277E = {
+			isa = PBXGroup;
+			children = (
+				48BEA33219C50C210072277E /* Daily Tasks */,
+				48BEA34F19C50C210072277E /* Daily TasksTests */,
+				48BEA32919C50C210072277E /* Frameworks */,
+				48BEA32819C50C210072277E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48BEA32819C50C210072277E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48BEA32719C50C210072277E /* Daily Tasks.app */,
+				48BEA34719C50C210072277E /* Daily TasksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48BEA32919C50C210072277E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48BEA32A19C50C210072277E /* Foundation.framework */,
+				48BEA32C19C50C210072277E /* CoreGraphics.framework */,
+				48BEA32E19C50C210072277E /* UIKit.framework */,
+				48BEA33019C50C210072277E /* CoreData.framework */,
+				48BEA34819C50C210072277E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48BEA33219C50C210072277E /* Daily Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				48BEA36419C55B0A0072277E /* AddTaskTableViewController.h */,
+				48BEA36519C55B0A0072277E /* AddTaskTableViewController.m */,
+				48BEA36119C55ACA0072277E /* DailyTasksTableViewController.h */,
+				48BEA36219C55ACA0072277E /* DailyTasksTableViewController.m */,
+				48BEA35F19C50CD60072277E /* Main.storyboard */,
+				48B6087819D5C9E8007FB4A0 /* NotificationPermissionHandler.h */,
+				48B6087919D5C9E8007FB4A0 /* NotificationPermissionHandler.m */,
+				48B5155019D16F7900C9D505 /* CheckBoxView.h */,
+				48B5155119D16F7900C9D505 /* CheckBoxView.m */,
+				48B5154D19D15BAB00C9D505 /* TaskWithCheckBoxTableViewCell.h */,
+				48B5154E19D15BAB00C9D505 /* TaskWithCheckBoxTableViewCell.m */,
+				48BEA34119C50C210072277E /* Images.xcassets */,
+				48B5155319D226B900C9D505 /* Tasks.h */,
+				48B5155419D226B900C9D505 /* Tasks.m */,
+				48BEA33E19C50C210072277E /* Daily_Tasks.xcdatamodeld */,
+				48BEA33319C50C210072277E /* Supporting Files */,
+			);
+			path = "Daily Tasks";
+			sourceTree = "<group>";
+		};
+		48BEA33319C50C210072277E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48BEA33B19C50C210072277E /* AppDelegate.h */,
+				48BEA33C19C50C210072277E /* AppDelegate.m */,
+				48BEA33419C50C210072277E /* Daily Tasks-Info.plist */,
+				48BEA33519C50C210072277E /* InfoPlist.strings */,
+				48BEA33819C50C210072277E /* main.m */,
+				48BEA33A19C50C210072277E /* Daily Tasks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48BEA34F19C50C210072277E /* Daily TasksTests */ = {
+			isa = PBXGroup;
+			children = (
+				48BEA35519C50C210072277E /* Daily_TasksTests.m */,
+				48BEA35019C50C210072277E /* Supporting Files */,
+			);
+			path = "Daily TasksTests";
+			sourceTree = "<group>";
+		};
+		48BEA35019C50C210072277E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48BEA35119C50C210072277E /* Daily TasksTests-Info.plist */,
+				48BEA35219C50C210072277E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48BEA32619C50C210072277E /* Daily Tasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48BEA35919C50C210072277E /* Build configuration list for PBXNativeTarget "Daily Tasks" */;
+			buildPhases = (
+				48BEA32319C50C210072277E /* Sources */,
+				48BEA32419C50C210072277E /* Frameworks */,
+				48BEA32519C50C210072277E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Tasks";
+			productName = "Daily Tasks";
+			productReference = 48BEA32719C50C210072277E /* Daily Tasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48BEA34619C50C210072277E /* Daily TasksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48BEA35C19C50C210072277E /* Build configuration list for PBXNativeTarget "Daily TasksTests" */;
+			buildPhases = (
+				48BEA34319C50C210072277E /* Sources */,
+				48BEA34419C50C210072277E /* Frameworks */,
+				48BEA34519C50C210072277E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48BEA34E19C50C210072277E /* PBXTargetDependency */,
+			);
+			name = "Daily TasksTests";
+			productName = "Daily TasksTests";
+			productReference = 48BEA34719C50C210072277E /* Daily TasksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48BEA31F19C50C210072277E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.Xiaoguang.;
+				TargetAttributes = {
+					48BEA32619C50C210072277E = {
+						DevelopmentTeam = S3CLE37N9V;
+					};
+					48BEA34619C50C210072277E = {
+						TestTargetID = 48BEA32619C50C210072277E;
+					};
+				};
+			};
+			buildConfigurationList = 48BEA32219C50C210072277E /* Build configuration list for PBXProject "Daily Tasks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48BEA31E19C50C210072277E;
+			productRefGroup = 48BEA32819C50C210072277E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48BEA32619C50C210072277E /* Daily Tasks */,
+				48BEA34619C50C210072277E /* Daily TasksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48BEA32519C50C210072277E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BEA36019C50CD60072277E /* Main.storyboard in Resources */,
+				48BEA33719C50C210072277E /* InfoPlist.strings in Resources */,
+				48BEA34219C50C210072277E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BEA34519C50C210072277E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BEA35419C50C210072277E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48BEA32319C50C210072277E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B5155519D226B900C9D505 /* Tasks.m in Sources */,
+				48B5154F19D15BAB00C9D505 /* TaskWithCheckBoxTableViewCell.m in Sources */,
+				48BEA33D19C50C210072277E /* AppDelegate.m in Sources */,
+				48B5155219D16F7900C9D505 /* CheckBoxView.m in Sources */,
+				48BEA36619C55B0A0072277E /* AddTaskTableViewController.m in Sources */,
+				48BEA34019C50C210072277E /* Daily_Tasks.xcdatamodeld in Sources */,
+				48B6087A19D5C9E8007FB4A0 /* NotificationPermissionHandler.m in Sources */,
+				48BEA36319C55ACA0072277E /* DailyTasksTableViewController.m in Sources */,
+				48BEA33919C50C210072277E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BEA34319C50C210072277E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BEA35619C50C210072277E /* Daily_TasksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48BEA34E19C50C210072277E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48BEA32619C50C210072277E /* Daily Tasks */;
+			targetProxy = 48BEA34D19C50C210072277E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48BEA33519C50C210072277E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48BEA33619C50C210072277E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48BEA35219C50C210072277E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48BEA35319C50C210072277E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48BEA35719C50C210072277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48BEA35819C50C210072277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48BEA35A19C50C210072277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daily Tasks/Daily Tasks-Prefix.pch";
+				INFOPLIST_FILE = "Daily Tasks/Daily Tasks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48BEA35B19C50C210072277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daily Tasks/Daily Tasks-Prefix.pch";
+				INFOPLIST_FILE = "Daily Tasks/Daily Tasks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		48BEA35D19C50C210072277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Daily Tasks.app/Daily Tasks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daily Tasks/Daily Tasks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Daily TasksTests/Daily TasksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		48BEA35E19C50C210072277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Daily Tasks.app/Daily Tasks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daily Tasks/Daily Tasks-Prefix.pch";
+				INFOPLIST_FILE = "Daily TasksTests/Daily TasksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48BEA32219C50C210072277E /* Build configuration list for PBXProject "Daily Tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BEA35719C50C210072277E /* Debug */,
+				48BEA35819C50C210072277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BEA35919C50C210072277E /* Build configuration list for PBXNativeTarget "Daily Tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BEA35A19C50C210072277E /* Debug */,
+				48BEA35B19C50C210072277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BEA35C19C50C210072277E /* Build configuration list for PBXNativeTarget "Daily TasksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BEA35D19C50C210072277E /* Debug */,
+				48BEA35E19C50C210072277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48BEA33E19C50C210072277E /* Daily_Tasks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48BEA33F19C50C210072277E /* Daily_Tasks.xcdatamodel */,
+			);
+			currentVersion = 48BEA33F19C50C210072277E /* Daily_Tasks.xcdatamodel */;
+			path = Daily_Tasks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48BEA31F19C50C210072277E /* Project object */;
+}
