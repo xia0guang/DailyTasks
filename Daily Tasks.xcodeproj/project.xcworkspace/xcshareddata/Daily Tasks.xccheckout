@@ -14,8 +14,6 @@
 		<string>https://github.com/xia0guang/DailyTasks.git</string>
 		<key>A062125BBFC903467AA9ED3D95FA08601F5D9FD9</key>
 		<string>github.com:xia0guang/Daily-Tasks.git</string>
-		<key>CFB5FCA9-6D67-417A-AAB9-245552C107A1</key>
-		<string>ssh://github.com/xia0guang/Daily-Tasks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Daily Tasks.xcodeproj</string>
@@ -25,8 +23,6 @@
 		<string>../..</string>
 		<key>A062125BBFC903467AA9ED3D95FA08601F5D9FD9</key>
 		<string>../../../Daily%20Tasks</string>
-		<key>CFB5FCA9-6D67-417A-AAB9-245552C107A1</key>
-		<string>../../../Daily Tasks</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/xia0guang/DailyTasks.git</string>
@@ -35,31 +31,5 @@
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>1EF7709B7517D8B8401DBEAA299EDAE17F7C07BF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
-	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CFB5FCA9-6D67-417A-AAB9-245552C107A1</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Daily Tasks</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A062125BBFC903467AA9ED3D95FA08601F5D9FD9</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Daily%20Tasks</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1EF7709B7517D8B8401DBEAA299EDAE17F7C07BF</string>
-			<key>IDESourceControlWCCName</key>
-			<string>DailyTasks</string>
-		</dict>
-	</array>
 </dict>
 </plist>
