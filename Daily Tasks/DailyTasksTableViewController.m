@@ -78,22 +78,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    [self.navigationController.navigationBar addGestureRecognizer:[[UISwipeGestureRecognizer alloc] initWithTarget:self.navigationController.navigationBar action:@selector(navigationBarTitleSwipe:)]];
 }
-
-
-// Title gesture switch date
-//- (void)navigationBarTitleSwipe:(UISwipeGestureRecognizer *)gesture
-//{
-//    
-//    if (self.dateOfTableView == [self getspecificTime:@"MMM dd" specificTime:[[NSDate date] dateByAddingTimeInterval:24*60*60]] && gesture.direction == UISwipeGestureRecognizerDirectionRight) {
-//        self.dateOfTableView = [self getspecificTime:@"MMM dd" specificTime:[NSDate date]];
-//    }
-//    if (self.dateOfTableView == [self getspecificTime:@"MMM dd" specificTime:[NSDate date]] && gesture.direction == UISwipeGestureRecognizerDirectionLeft) {
-//        self.dateOfTableView = [self getspecificTime:@"MMM dd" specificTime:[[NSDate date] dateByAddingTimeInterval:24*60*60]];
-//    }
-//    [self.tableView reloadData];
-//}
 
 - (void)viewWillAppear:(BOOL)animated
 {
